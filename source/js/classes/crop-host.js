@@ -145,13 +145,13 @@ crop.factory('cropHost', ['$document', '$q', 'cropAreaCircle', 'cropAreaSquare',
                     });
                 } else if (undefined !== theArea.getInitSize()) {
                     theArea.setSize({
-                        w: Math.min(theArea.getInitSize().w, cw / 2),
-                        h: Math.min(theArea.getInitSize().h, ch / 2)
+                        w: Math.min(theArea.getInitSize().w, cw),
+                        h: Math.min(theArea.getInitSize().h, ch)
                     });
                 } else {
                     theArea.setSize({
-                        w: Math.min(200, cw / 2),
-                        h: Math.min(200, ch / 2)
+                        w: Math.min(200, cw),
+                        h: Math.min(200, ch)
                     });
                 }
 
