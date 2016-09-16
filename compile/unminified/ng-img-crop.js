@@ -5,7 +5,7 @@
  * Copyright (c) 2016 Alex Kaul
  * License: MIT
  *
- * Generated at Thursday, September 15th, 2016, 10:32:32 AM
+ * Generated at Friday, September 16th, 2016, 1:10:51 PM
  */
 (function() {
 var crop = angular.module('ngImgCrop', []);
@@ -2309,13 +2309,13 @@ crop.factory('cropHost', ['$document', '$q', 'cropAreaCircle', 'cropAreaSquare',
                     });
                 } else if (undefined !== theArea.getInitSize()) {
                     theArea.setSize({
-                        w: Math.min(theArea.getInitSize().w, cw / 2),
-                        h: Math.min(theArea.getInitSize().h, ch / 2)
+                        w: Math.min(theArea.getInitSize().w, cw),
+                        h: Math.min(theArea.getInitSize().h, ch)
                     });
                 } else {
                     theArea.setSize({
-                        w: Math.min(200, cw / 2),
-                        h: Math.min(200, ch / 2)
+                        w: Math.min(200, cw),
+                        h: Math.min(200, ch)
                     });
                 }
 
@@ -3189,7 +3189,8 @@ crop.directive('imgCrop', ['$timeout', 'cropHost', 'cropPubSub', function ($time
 
                         updateAreaCoords(scope);
                         scope.onChange({
-                            $dataURI: scope.resultImage
+                            $dataURI: scope.resultImage,
+                            areaCoords: cropHost.getAreaCoords()
                         });
                     }
                 }
