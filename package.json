@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "compile/unminified/ng-img-crop.js",
   "license": "UNLICENSED",
+  "files": [
+    "compile/minified/ng-img-crop.css",
+    "compile/minified/ng-img-crop.js"
+  ],
   "dependencies": {
     "angular": ">=1.4.0"
   },
