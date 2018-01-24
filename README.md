@@ -1,7 +1,3 @@
-## ngImgCropFullExtended
-[![Build Status](https://travis-ci.org/CrackerakiUA/ngImgCropFullExtended.svg?branch=master)](https://travis-ci.org/CrackerakiUA/ngImgCropFullExtended)
-[![GitHub release](https://img.shields.io/github/release/CrackerakiUA/ngImgCropFullExtended.svg)](https://github.com/CrackerakiUA/ngImgCropFullExtended) [![Join the chat at https://gitter.im/CrackerakiUA/ngImgCropFullExtended](https://badges.gitter.im/CrackerakiUA/ngImgCropFullExtended.svg)](https://gitter.im/CrackerakiUA/ngImgCropFullExtended?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Simple Image Crop directive for AngularJS. Enables to crop a circle, square or rectangle from of an image.
 
 
@@ -60,7 +56,3 @@ angular.module('app', ['ngImgCrop'])
 ## Documentation
 
 You can checkout all options under [our wiki page](https://github.com/CrackerakiUA/ngImgCropFullExtended/wiki/Options)
-
-## License
-
-See the [LICENSE](https://github.com/CrackerakiUA/blob/master/LICENSE) file
