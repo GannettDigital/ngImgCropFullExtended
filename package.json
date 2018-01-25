@@ -1,5 +1,5 @@
 {
-  "name": "@gannett/ngImgCropFullExtended",
+  "name": "@gannettdigital/ngImgCropFullExtended",
   "version": "1.0.0",
   "main": "compile/unminified/ng-img-crop.js",
   "license": "UNLICENSED",
